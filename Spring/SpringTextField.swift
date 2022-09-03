@@ -22,7 +22,7 @@
 
 import UIKit
 
-open class SpringTextField: UITextField, Springable {
+open class SpringTextField: UITextField, Springable, HanweExtension {
     @IBInspectable public var autostart: Bool = false
     @IBInspectable public var autohide: Bool = false
     @IBInspectable public var animation: String = ""
